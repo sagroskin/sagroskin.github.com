@@ -1,0 +1,161 @@
+body
+{
+    background-color: #F6F4EF;
+    background-image: url(/css/bg.png);
+    width: 100%;
+}
+
+.header
+{
+    background: #3484B7;
+    width: 100%;
+    z-index: 1;
+}
+
+.body
+{
+    width: 100%;
+    margin: -200px 0px 80px 0px;
+    z-index: 10;
+}
+
+.footer
+{
+    width: 100%;
+    background: #191814;
+    color: #888987;
+}
+
+    .footer a
+    {
+        font-weight: normal;
+        color: #EEE;
+    }
+
+    .footer .nav > li > a:hover
+    {
+        background: none;
+        text-decoration: underline;
+    }
+
+ul.menu
+{
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.menu li
+    {
+        float: left;
+    }
+
+        ul.menu li a
+        {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 0 1px 0 #016F92;
+            display: block;
+            padding: 0 10px;
+        }
+
+            ul.menu li a:hover, ul.menu li a.selected
+            {
+                color: #193F59;
+                text-shadow: 0 1px 0 #3C9BD7;
+                text-decoration: none;
+            }
+
+.logo
+{
+    color: #FFF;
+    font-size: 28px;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #016F92;
+}
+
+a.logo:hover
+{
+    color: #193F59;
+    text-shadow: 0 1px 0 #3C9BD7;
+    text-decoration: none;
+}
+
+.frame
+{
+    padding: 9px;
+    border: 1px solid #9f9e9e;
+    /*box-shadow: 0 0px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0px 5px rgba(0,0,0,0.3);*/
+}
+
+    .frame:hover
+    {
+        box-shadow: 0 0px 10px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 0 0px 10px rgba(0,0,0,0.7);
+        -moz-box-shadow: 0 0px 10px rgba(0,0,0,0.7); /* background: #18AEDC; */
+    }
+
+h1, h2, h3
+{
+    margin: 10px 0px 10px 0px;
+}
+
+h2
+{
+    font-size: 48px;
+    margin: 40px 0px 40px 0px;
+    font-weight: normal;
+}
+
+h3
+{
+    line-height: 18px;
+}
+
+.labal
+{
+    float: left;
+    width: 120px;
+    text-align: right;
+    color: #18AEDC;
+}
+
+.control
+{
+    margin-left: 130px;
+}
+
+body, p
+{
+    font-size: 14px;
+}
+
+.mini-gallery img
+{
+    padding: 2px;
+    margin: 0;
+    float: left;
+    display: block;
+}
+
+.box
+{
+    margin-top: 10px;
+    background: #FFF;
+    padding: 9px;
+    z-index: 11;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.box-about
+{
+    margin-top: 0px;
+}
